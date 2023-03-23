@@ -5,7 +5,7 @@ import classes from "./Users.module.css";
 
 class Users extends Component {
   state = {
-    showUsers: false,
+    showUsers: true,
   };
 
   toggleUsersHandler() {
